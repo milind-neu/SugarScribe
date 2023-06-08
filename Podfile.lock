@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.7.1)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - ProgressHUD (13.6.2)
+  - RxSwift (6.5.0)
+  - SwiftLint (0.27.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.7.1)
+  - Kingfisher (~> 5.0)
+  - ProgressHUD
+  - RxSwift
+  - SwiftLint (~> 0.27.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - ProgressHUD
+    - RxSwift
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  ProgressHUD: 355915c8f033e626788fa9b0d99d06e8691595ab
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+
+PODFILE CHECKSUM: 8b00010a19bd1178100cc861f60578b843b73520
+
+COCOAPODS: 1.11.3

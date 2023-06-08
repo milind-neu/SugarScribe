@@ -1,0 +1,32 @@
+name: SwiftCI
+
+# Trigger the workflow on pull requests targeting the 'main' branch
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    # Use the macOS environment for the job
+    runs-on: macos-latest
+
+    steps:
+      # Use the 'actions/checkout' action to fetch the repository's code
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+      # Switch to the specified version of Xcode
+    - name: Set up Xcode
+      run: sudo xcode-select --switch /Applications/Xcode.app
+
+      # Install the specified version of CocoaPods
+    - name: Install CocoaPods
+      run: |
+        gem install cocoapods -v '1.12.1'
+        pod install
+
+      # Clean the project and run tests using the specified scheme and destination
+    - name: Build and test app
+      run: |
+        xcodebuild clean test -workspace Chef-Choice.xcworkspace -scheme Chef-Choice -destination "platform=iOS Simulator,name=iPhone 14 Pro Max"
