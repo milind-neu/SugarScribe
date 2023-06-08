@@ -1,10 +1,19 @@
 # Chef-Choice
 
 ## Personal Information
-Milind Sharma | sharma.mil@northeastern.edu  
+Milind Sharma | sharma.mil@northeastern.edu   
+
+## Screenshots:
+1. Launch Screen: ![alt text](https://github.com/milind-neu/SugarScribe/blob/main/Screenshots/1.%20Launch%20screen.png)
+2. Recipe listing Screen: ![alt text](https://github.com/milind-neu/SugarScribe/blob/main/Screenshots/2.%20List%20Screen.png)
+1. Recipe detail Screen: ![alt text](https://github.com/milind-neu/SugarScribe/blob/main/Screenshots/3.%20Detail%20Screen.png)
+1. Recipe content play Screen: ![alt text](https://github.com/milind-neu/SugarScribe/blob/main/Screenshots/4.%20Content%20play%20screen.png)
+
 
 ## Tech Stack
 - The programming language chosen for this project is `Swift`, specifically utilizing the `UIKit` framework. The chosen architectural pattern is `Model-View-ViewModel (MVVM)`. The project is being developed using `Xcode version 14.3`. The minimum deployment target for the project is `iOS 14.0+`. The app is made responsive for portrait as well as landscape orientation of iPhones. 
+
+## Handled all cases for API response!
 
 ## Build and Run Instructions
 1. Clone the forked repository `git@github.com:milind-neu/Chef-Choice.git` 
