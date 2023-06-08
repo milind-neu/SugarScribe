@@ -29,4 +29,4 @@ jobs:
       # Clean the project and run tests using the specified scheme and destination
     - name: Build and test app
       run: |
-        xcodebuild clean test -workspace Chef-Choice.xcworkspace -scheme Chef-Choice -destination "platform=iOS Simulator,name=iPhone 14 Pro Max"
+        xcodebuild clean test -workspace SugarScribe.xcworkspace -scheme SugarScribe -destination "platform=iOS Simulator,name=iPhone 14 Pro Max"
