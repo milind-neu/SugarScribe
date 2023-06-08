@@ -14,10 +14,10 @@ Milind Sharma | sharma.mil@northeastern.edu
 ## Handled all cases for API response!
 
 ## Build and Run Instructions
-1. Clone the forked repository `git@github.com:milind-neu/Chef-Choice.git` 
+1. Clone the forked repository `git@github.com:milind-neu/SugarScribe.git` 
 2. Open terminal and move to the project directory 
 3. Run `pod install` to install the required pods
-4. Open `Chef-Choice.xcworkspace` file using latest version of `XCode`
+4. Open `SugarScribe.xcworkspace` file using latest version of `XCode`
 5. Build and Run the app for simulator or iPhone device with iOS version `14.0+`
 
 ## Unit Tests added
