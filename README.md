@@ -1,5 +1,3 @@
-# Chef-Choice
-
 ## Personal Information
 Milind Sharma | sharma.mil@northeastern.edu   
 
